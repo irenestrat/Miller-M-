@@ -1,2 +1,3 @@
 # Miller-M-
 Synchronization, Channel Estimation &amp; Detection of RFID Signals with Miller Coding
+The ML coding is only for sequence length of one bit. The general Miller code is in miller_best.m script through which three functions are called. One of these functions is for rayleigh_fading channel, the other for AddWhiteGaussianNoise and the last one is for creating the RN-Miller symbols. For sequence lengths more than one bit the Viterbi algorithm is used. General script for this is miller_viterbi.m , for more information you can download my thesis (pdf) from this site: http://dias.library.tuc.gr/view/72071
